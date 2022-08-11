@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.navbar-container div img {
+     width: 100px;
+}
+.list{
+    position: absolute;
+    left: 30%;
+    display: flex;
+}
+.list .list-item{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    margin: 0 30px;
+    font-weight: bold;
+    /* font-family: "Poppins"; */
+    justify-content: space-between;
+}
+.list .list-item:nth-child(1){
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+ .button-group{
+  display: flex;  
+  position: absolute;
+  right: 15%;
+  top: 35px;
+}
+.button-group .search-icon svg{
+    width: 25px;
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
+.button-group .nav-button{
+    width: 180%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border-width: medium;
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+.hero-container{
+    width: 90%;
+    margin: auto;
+}
+.hero-container .hero-image{
+    position: absolute;
+    top: 20%;
+}
+.hero-container .hero-image img{
+    width: 400px;
+}
+.hero-container .square{
+    position: absolute;
+    top: 295px;
+    left: 140px;
+
+}
+.globe{
+    position:absolute;
+    top: 20%;
+    left: 52%;
+}
+.globe img{
+    width: 50px;
+}
+.star{
+    position: absolute;
+    top:28%;
+    left: 85%;
+}
+.star img{
+    width: 60px;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    height: 550px;
+    
+}
+.hero-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.hero-description{
+    font-family: "Poppins", Helvetica, sans-serif;
+    width: 65%;
+    text-align: center;
+    color: rgb(69, 69, 69);
+    margin-bottom: 5rem;
+}
+.button-join,
+.button-email {
+  font-family: "Orbitron", Helvetica, sans-serif;
+  font-weight: 800;
+}
+.button-email {
+    border-radius: 13px;
+    padding: 8px;
+    width: 174px;
+    color: rgb(59, 59, 59);
+    border-color: rgb(59, 59, 59);
+}
+  
+.button-join {
+    border-radius: 12px;
+    width: 116px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+.contact-heading{
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 50px;
+  
+}
+.icons{
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+    margin-top: 10px;
+}
